@@ -1,8 +1,15 @@
 # Colony matters: How density shapes predator access in two Antarctic fur seal (*Arctocephalus gazella*) colonies
 
-**Authors:** Johannes Bartl, Ane Liv Berthelsen, Alexander Winterl, Cameron Fox-Clarke, Jaume Forcada, Rebecca Nagel, Joseph I. Hoffman, Ben Fabry
+**Authors:** Johannes Bartl [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0009-0003-3647-2472), 
+Ane Liv Berthelsen [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0001-6718-6709), 
+Alexander Winterl [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-0688-9317), 
+Cameron Fox-Clarke, 
+Jaume Forcada [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0002-2115-0150), 
+Rebecca Nagel [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0002-2925-1028), 
+Joseph I. Hoffman [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0001-5895-8949), 
+Ben Fabry [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-1737-0465)
 
-[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.18955385.svg)](https://doi.org/10.5281/zenodo.18955385)
 
 This repository contains the code, models, and analysis scripts associated with the paper **"Colony matters: How density shapes predator access in two Antarctic fur seal (*Arctocephalus gazella*) colonies"**.
 
@@ -28,7 +35,7 @@ This repository contains the code, models, and analysis scripts associated with 
 
 The raw imagery and primary annotation databases are hosted on Zenodo.
 
-**Dataset DOI:** [10.5281/zenodo.XXXXXX](https://doi.org/10.5281/zenodo.XXXXXX)
+**Dataset DOI:** [10.5281/zenodo.18955385](https://doi.org/10.5281/zenodo.18955385)
 
 The Zenodo dataset includes:
 1.  **Raw Imagery:** 110 high-resolution `.jpg` images.

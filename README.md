@@ -16,6 +16,7 @@ Ben Fabry [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x1
 ### Prerequisites
 * Python: 3.8.10
 * python packages listed in requirements.txt
+For training a GPU is recommended - we used:
 * Hardware: NVIDIA GeForce RTX 3070 (8GB VRAM)
 * CUDA Toolkit: 11.2 (Required for reproducibility)
 * NVIDIA Driver: 575.51 (Supports CUDA 11.2+)

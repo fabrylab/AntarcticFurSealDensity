@@ -10,7 +10,7 @@ Joseph I. Hoffman [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/or
 Ben Fabry [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-1737-0465)
 
 [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.18955385.svg)](https://doi.org/10.5281/zenodo.18955385)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
   <img src="assets/cover.png" width="100%" alt="Antarctic Fur Seal Colony Analysis">

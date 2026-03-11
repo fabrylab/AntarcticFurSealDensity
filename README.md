@@ -11,6 +11,27 @@ Ben Fabry [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x1
 
 [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.18955385.svg)](https://doi.org/10.5281/zenodo.18955385)
 
+## Installation
+
+### Prerequisites
+* Python: 3.8.10
+* python packages listed in requirements.txt
+* Hardware: NVIDIA GeForce RTX 3070 (8GB VRAM)
+* CUDA Toolkit: 11.2 (Required for reproducibility)
+* NVIDIA Driver: 575.51 (Supports CUDA 11.2+)
+
+### Setup
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/fabrylab/AntarcticFurSealDensity.git
+    cd AntarcticFurSealDensity
+    ```
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
 This repository contains the code, models, and analysis scripts associated with the paper **"Colony matters: How density shapes predator access in two Antarctic fur seal (*Arctocephalus gazella*) colonies"**.
 
 ## Repository Structure

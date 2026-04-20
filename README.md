@@ -1,4 +1,4 @@
-# Colony matters: How density shapes predator access in two Antarctic fur seal (*Arctocephalus gazella*) colonies
+# High population density limits predator access in Antarctic fur seal breeding colonies
 
 **Authors:** Johannes Bartl [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0009-0003-3647-2472),
 Ane Liv Berthelsen [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0001-6718-6709),

@@ -9,7 +9,7 @@ Rebecca Nagel [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_
 Joseph I. Hoffman [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0001-5895-8949),
 Ben Fabry [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-1737-0465)
 
-[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.18955385.svg)](https://doi.org/10.5281/zenodo.18955385)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.23733225.svg)](https://doi.org/10.5281/zenodo.23733225)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
@@ -59,7 +59,7 @@ AntarcticFurSealDensity/
 ├── assets/
 │   ├── census_ssb_2020_21.xlsx     # daily field census at SSB
 │   ├── cover.png                   # cover image of this README
-│   ├── icons/                      # bird drawings (Figure 4)
+│   ├── icons/                      # seal (Figure 3) and bird drawings (Figure 4)
 │   ├── model_evaluation/           # bird test set and confusion matrices of both detection models
 │   └── raw_image_lists/            # file names of all recorded images
 ├── map/
@@ -108,7 +108,7 @@ AntarcticFurSealDensity/
 * **`model_evaluation/ssb_confusion_*.csv`**: Confusion matrices of the SSB model (validation crops, bird test set and
   combined), output of `model_evaluation/confusion_matrix.py`.
 * **`model_evaluation/rsos_fwb_confusion_matrix.csv`**: Confusion matrix of the hierarchical FWB model (original FWB study).
-* **`icons/`**: Drawings of giant petrel, brown skua and snowy sheathbill (Figure 4).
+* **`icons/`**: Drawings of adult male, adult female and pup Antarctic fur seals (Figure 3) and of giant petrel, brown skua and snowy sheathbill (Figure 4).
 * **`cover.png`**: Cover image of this README.
 
 ### Map Data (`map/`)
@@ -126,7 +126,7 @@ AntarcticFurSealDensity/
 
 ## Dataset Access (Zenodo)
 
-**Dataset DOI:** [10.5281/zenodo.18955385](https://doi.org/10.5281/zenodo.18955385)
+**Dataset DOI:** [10.5281/zenodo.23733225](https://doi.org/10.5281/zenodo.23733225)
 
 | File | Content |
 |---|---|

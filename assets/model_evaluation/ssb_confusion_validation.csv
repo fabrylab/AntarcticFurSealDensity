@@ -1,0 +1,10 @@
+,male,female,pup,elephant seal,skua,giant petrel,sheathbill,penguin,False negative
+male,450,1,0,0,0,0,0,0,120
+female,4,546,1,0,0,0,0,0,84
+pup,0,0,484,0,0,0,0,0,138
+elephant seal,1,0,0,10,0,0,0,0,0
+skua,0,0,0,0,1,0,0,0,2
+giant petrel,0,0,0,0,0,1,0,0,0
+sheathbill,0,0,0,0,0,0,41,0,28
+penguin,1,0,0,0,0,0,1,79,91
+False positive,91,61,31,2,0,1,6,26,0

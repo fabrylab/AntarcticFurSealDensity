@@ -1,0 +1,26 @@
+# data from Zenodo (too large for GitHub)
+/FWB.csv
+/SSB.csv
+/fwb.csv
+/ssb.csv
+/model.pt
+/data.zip
+/data/
+
+# training outputs and pretrained weights
+/runs/
+/yolo/
+/images/
+*.pt
+
+# local working files
+/archive/
+/claude/
+/Untitled.ipynb
+/analysis-Copy1.ipynb
+/per-class f1 score.ipynb
+/assets/cover.pptx
+/figures/revision_*.png
+.ipynb_checkpoints/
+Thumbs.db
+__pycache__/

@@ -1,0 +1,15 @@
+True label,Seal,Fur seal,Male,Female,Pup,Elephant seal,Leopard seal,Bird,Brown skua,Giant petrel,Snowy sheathbill,Kelp gull,King Penguin,False negative
+Seal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Fur seal,0,0,146,286,23,0,0,0,0,0,1,0,0,223
+Male,0,2,8649,194,0,0,0,0,0,0,0,0,0,2996
+Female,1,6,54,7091,86,0,0,0,0,0,3,0,0,2647
+Pup,0,26,0,183,5588,0,0,5,0,0,10,0,0,1291
+Elephant seal,0,0,14,0,0,37,0,0,0,0,0,0,0,3
+Leopard seal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bird,0,0,0,0,0,0,0,36,91,101,0,0,0,34
+Brown skua,9,0,0,0,37,0,0,86,3181,37,0,0,0,545
+Giant petrel,0,0,0,0,0,0,0,21,0,199,0,0,0,67
+Snowy sheathbill,3,0,0,0,0,0,0,3,0,0,926,0,0,231
+Kelp gull,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+King Penguin,0,0,0,0,0,0,0,0,0,13,1,0,29,18
+False positive,0,38,3583,3841,1736,1,0,4,687,67,468,0,0,0

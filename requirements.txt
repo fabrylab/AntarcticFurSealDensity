@@ -1,19 +1,24 @@
+# Tested with Python 3.10
+
+# analysis.ipynb, model_evaluation/confusion_matrix.py
 cameratransform==1.2
-cartopy==0.21.1
-clickpoints.egg==info
-contourpy==1.3.3
-geopandas==0.12.2
-matplotlib==3.7.5
-numpy==1.24.4
-pandas==2.0.2
-Pillow==8.4.0
-Pillow==12.1.1
+cartopy==0.25.0
+clickpoints==1.10.0
+contourpy==1.0.5
+matplotlib==3.10.0
+numpy           # version set by clickpoints (tested with 1.26.4)
+openpyxl==3.1.5
+pandas==2.3.3
+Pillow==9.4.0
+pyproj==3.7.1
 PyYAML==6.0
-PyYAML==6.0.3
-sahi==0.11.36
-scipy==1.8.0
-seaborn==0.13.2
-Shapely==1.8.5
-torch==2.0.1
-tqdm==4.65.0
+scipy           # version set by clickpoints (tested with 1.15.3)
+shapely==2.1.2
+statsmodels==0.13.5
+tqdm==4.64.1
+
+# training.ipynb (training and inference of the detection model)
+torch==2.14.1
+torchvision==0.29.1
 ultralytics==8.4.12
+sahi==0.11.36

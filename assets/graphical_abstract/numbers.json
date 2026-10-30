@@ -1,0 +1,18 @@
+{
+ "per_pup": {
+  "FWB|giant petrel": 0.091324200913242,
+  "FWB|skua": 0.16818873668188736,
+  "FWB|sheathbill": 0.1080669710806697,
+  "SSB|giant petrel": 0.022592152199762187,
+  "SSB|skua": 0.027348394768133173,
+  "SSB|sheathbill": 0.187871581450654
+ },
+ "overlap": {
+  "FWB|giant petrel": 86.68974211829152,
+  "FWB|skua": 79.21170356754189,
+  "FWB|sheathbill": 94.24625326681993,
+  "SSB|giant petrel": 25.44465309982059,
+  "SSB|skua": 52.652720621080135,
+  "SSB|sheathbill": 99.28206960677517
+ }
+}

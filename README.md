@@ -13,7 +13,7 @@ Ben Fabry [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x1
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <img src="assets/cover.png" width="100%" alt="Antarctic Fur Seal Colony Analysis">
+  <img src="figures/graphical_abstract.png" width="100%" alt="Graphical abstract">
 </p>
 
 This repository contains the code, model evaluation and analysis inputs associated with the paper
@@ -52,14 +52,18 @@ figures and tables of the paper.
 AntarcticFurSealDensity/
 ├── analysis.ipynb                  # all analyses, figures and tables of the paper
 ├── training.ipynb                  # training of the YOLOv8 detection model (demo)
+├── graphical_abstract.ipynb        # graphical abstract (banner of this README)
+├── graphical_abstract_select.py    # choose the map areas shown in the graphical abstract
 ├── requirements.txt                # Python dependencies
 ├── SSB.cdb                         # manual annotations of the SSB training images
 ├── FWB.csv, SSB.csv, model.pt      # from Zenodo (not in the repository)
 ├── data/                           # from Zenodo (data.zip): annotated training images
 ├── assets/
 │   ├── census_ssb_2020_21.xlsx     # daily field census at SSB
-│   ├── cover.png                   # cover image of this README
+│   ├── cover.png                   # former cover image of this README
+│   ├── graphical_abstract/         # small inputs of the graphical abstract
 │   ├── icons/                      # seal (Figure 3) and bird drawings (Figure 4)
+│   │   └── transparent/            # the same drawings without background (graphical abstract)
 │   ├── model_evaluation/           # bird test set and confusion matrices of both detection models
 │   └── raw_image_lists/            # file names of all recorded images
 ├── map/
@@ -81,6 +85,15 @@ AntarcticFurSealDensity/
   epochs only) and applies it to a full-size image with sliced inference (SAHI). The published `model.pt` was
   additionally trained on synthetic crops with pasted birds (copy-paste augmentation), whose source images are not
   part of the published data.
+* **`graphical_abstract.ipynb`**: Graphical abstract (`figures/graphical_abstract.png`). Runs in under a minute
+  from the small files in `assets/graphical_abstract/`; only if these are missing, its *prepare* cell recreates them
+  from `FWB.csv` and `SSB.csv` (set `CSV_DIR` to their folder). The density maps show all detected seals per m²,
+  averaged over all images of the days monitored at both colonies; the fourfold density difference and the rate
+  ratios (with 95% confidence intervals) are taken from the Results of the paper; the overlap of bird and pup areas is
+  recomputed as in Figure 5.
+* **`graphical_abstract_select.py`**: Interactive tool to choose the map areas of the density maps and overlap maps
+  in the graphical abstract (`python graphical_abstract_select.py density` or `... overlap`; click to centre, mouse
+  wheel to resize, `s` to save to `assets/graphical_abstract/extents.json`).
 * **`model_evaluation/confusion_matrix.py`**: Confusion matrix of the SSB model at the analysis confidence threshold
   (0.65) on the validation crops and the bird test set (see `model_evaluation/README.md`).
 * **`requirements.txt`**: Python packages and versions.
@@ -109,7 +122,13 @@ AntarcticFurSealDensity/
   combined), output of `model_evaluation/confusion_matrix.py`.
 * **`model_evaluation/rsos_fwb_confusion_matrix.csv`**: Confusion matrix of the hierarchical FWB model (original FWB study).
 * **`icons/`**: Drawings of adult male, adult female and pup Antarctic fur seals (Figure 3) and of giant petrel, brown skua and snowy sheathbill (Figure 4).
-* **`cover.png`**: Cover image of this README.
+* **`icons/transparent/`**: The same drawings without background, used in the graphical abstract.
+* **`graphical_abstract/`**: Inputs of the graphical abstract, written by `graphical_abstract.ipynb`:
+  `fov.json` (camera positions and fields of view), `density.npz` (mean number of seals per m² and image on a 1 m
+  grid, days monitored at both colonies), `areas.json` (99% kernel density areas of pups and birds), `numbers.json`
+  (birds per pup and overlap with the pup area), `days.json` (days with images) and `extents.json` (map areas chosen
+  with `graphical_abstract_select.py`).
+* **`cover.png`**: Former cover image of this README.
 
 ### Map Data (`map/`)
 * **`FWB.kml` / `FWB.png` / `FWB_v1.cdb`**: Georeferencing and annotation data for Freshwater Beach
